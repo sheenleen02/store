@@ -82,7 +82,7 @@ const Dashboard = () => {
                 onChange={handleChange}
                 disabled={!isEditing}
                 className="w-full p-[5px] rounded"
-                placeholder='put your username'
+                placeholder='get ur dash'
               />
             </div>
             <div>
