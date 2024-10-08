@@ -27,7 +27,7 @@ const HeroSection = () => {
                 <div className='relative z-10'>  
                     <h2 className="text-5xl font-bold mb-4 mt-[150px] text-green-400">Create Your Online Store Today!</h2>  
                     <p className="mb-4 text-2xl text-white">Empower your small business with a personalized storefront that attracts customers.</p>  
-                    <Link to="/register" target="_blank" className="bg-white text-blue-600 px-6 py-3 rounded">  
+                    <Link to="/register" target="_blank" className="bg-white text-green-600 text-bold px-6 py-3 rounded">  
                         Get started   
                     </Link>  
                 </div>  

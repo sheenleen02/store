@@ -78,10 +78,11 @@ const Dashboard = () => {
               <input
                 type="text"
                 name="contactInfo"
-                value={profileData.contactInfo || 'yourusername'}
+                value={profileData.contactInfo}
                 onChange={handleChange}
                 disabled={!isEditing}
                 className="w-full p-[5px] rounded"
+                placeholder='put your username'
               />
             </div>
             <div>
