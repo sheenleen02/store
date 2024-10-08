@@ -1,0 +1,51 @@
+
+.overlay {  
+    position: absolute;  
+    top: 0;  
+    left: 0;  
+    right: 0;  
+    bottom: 0;  
+    background-color: rgba(0, 0, 0, 0.5); 
+    z-index: 1;  
+}  
+
+
+.relative.z-10 {  
+    position: relative;  
+    z-index: 10;   
+}
+ 
+
+
+@keyframes slide-background {  
+    0% {  
+        transform: translateX(100%); 
+    }  
+    25% {  
+        transform: translateX(0); 
+    }  
+    50% {  
+        transform: translateX(0); 
+    }  
+    75% {  
+        transform: translateX(-100%);  
+    }  
+    100% {  
+        transform: translateX(-100%);   
+    }  
+}  
+
+.bg-slide {  
+    animation: slide-background 10s ease-in-out infinite;  
+    position: absolute; 
+    inset: 0; 
+    background-size: cover; 
+}  
+
+.bg-slide1 {  
+    animation-delay: 0s; 
+}  
+
+.bg-slide2 {  
+    animation-delay: 5s; 
+}

@@ -1,0 +1,73 @@
+/* Dashboard.css */  
+
+.dashboard {  
+    display: flex;  
+    height: 100vh;  
+    background-color: #f4f4f4;  
+}  
+
+.sidebar {  
+    width: 250px;  
+    background-color: #fff;  
+    padding: 20px;  
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);  
+}  
+
+.sidebar h2 {  
+    margin-bottom: 20px;  
+}  
+
+.sidebar ul {  
+    list-style: none;  
+    padding: 0;  
+}  
+
+.sidebar li {  
+    padding: 10px 0;  
+    cursor: pointer;  
+}  
+
+.sidebar li span {  
+    float: right;  
+    background-color: #007bff;  
+    color: white;  
+    border-radius: 12px;  
+    padding: 2px 6px;  
+}  
+
+.main-content {  
+    flex: 1;  
+    padding: 20px;  
+}  
+
+.settings-panel {  
+    background-color: #fff;  
+    padding: 20px;  
+    border-radius: 8px;  
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);  
+}  
+
+.profile-picture {  
+    display: flex;  
+    align-items: center;  
+}  
+
+.profile-picture img {  
+    border-radius: 50%;  
+    width: 80px;  
+    height: 80px;  
+    margin-right: 20px;  
+}  
+
+.profile-details p {  
+    margin: 10px 0;  
+}  
+
+.save-changes {  
+    background-color: #007bff;  
+    color: white;  
+    border: none;  
+    padding: 10px 20px;  
+    border-radius: 5px;  
+    cursor: pointer;  
+}
